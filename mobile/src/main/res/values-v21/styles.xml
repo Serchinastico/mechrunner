@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="MechRunnerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:windowContentTransitions">true</item>
+		<item name="android:windowEnterTransition">@transition/fade</item>
+		<item name="android:windowExitTransition">@transition/fade</item>
+		<item name="android:windowSharedElementEnterTransition">@transition/auto_transition</item>
+		<item name="android:windowSharedElementExitTransition">@transition/auto_transition</item>
+
+		<item name="android:textColorPrimary">#EEEEEE</item>
+		<item name="android:textColorPrimaryInverse">#333333</item>
+		<item name="android:colorPrimary">#497CF2</item>
+		<item name="android:colorPrimaryDark">#395FB8</item>
+		<item name="android:colorAccent">#9DB5ED</item>
+	</style>
+</resources>

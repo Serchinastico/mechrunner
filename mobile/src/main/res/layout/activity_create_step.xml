@@ -1,0 +1,77 @@
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:orientation="vertical"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:theme="@style/MechRunnerTheme">
+
+	<android.support.v7.widget.Toolbar
+			android:id="@+id/create_step_toolbar"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:transitionName="toolbar"
+			android:background="?attr/android:colorPrimary" />
+
+	<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:paddingLeft="@dimen/activity_horizontal_margin"
+			android:paddingRight="@dimen/activity_horizontal_margin"
+			android:paddingTop="@dimen/activity_vertical_margin">
+
+		<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="50dp"
+				android:orientation="vertical">
+
+			<com.rengwuxian.materialedittext.MaterialEditText
+					android:id="@+id/duration_seconds_edit_text"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:hint="@string/step_duration"
+					android:text=""
+					android:textSize="24sp"
+					android:inputType="number"
+					app:baseColor="?attr/android:textColorPrimaryInverse"
+					app:floatingLabel="highlight"
+					app:primaryColor="?attr/android:colorAccent"
+					app:singleLineEllipsis="true" />
+
+			<RadioGroup
+					android:id="@+id/step_type_radio_group"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+				<RadioButton
+						android:id="@+id/step_type_rest_radio_button"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:checked="true"
+						android:text="@string/rest_step_type" />
+
+				<RadioButton
+						android:id="@+id/step_type_exercise_radio_button"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/exercise_step_type"/>
+
+			</RadioGroup>
+
+		</LinearLayout>
+
+		<com.melnykov.fab.FloatingActionButton
+				android:id="@+id/add_step_button"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|center"
+				android:layout_margin="@dimen/add_schedule_step_button_margin"
+				android:src="@drawable/ic_check_white_24dp"
+				android:transitionName="fab"
+				app:fab_colorNormal="@color/accept_item_normal"
+				app:fab_colorPressed="@color/accept_item_pressed"
+				app:fab_colorRipple="@color/accept_item_ripple" />
+	</FrameLayout>
+
+</LinearLayout>

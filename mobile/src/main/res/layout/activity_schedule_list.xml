@@ -1,0 +1,39 @@
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:orientation="vertical"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:theme="@style/MechRunnerTheme">
+
+	<android.support.v7.widget.Toolbar
+			android:id="@+id/schedule_list_toolbar"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:transitionName="toolbar"
+			android:background="?attr/android:colorPrimary" />
+
+	<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+		<android.support.v7.widget.RecyclerView
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/schedules_list"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent" />
+
+		<com.melnykov.fab.FloatingActionButton
+				android:id="@+id/add_schedule_button"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|center"
+				android:layout_margin="@dimen/add_schedule_button_margin"
+				android:src="@drawable/ic_add_white_24dp"
+				android:transitionName="fab"
+				app:fab_colorNormal="@color/add_item_normal"
+				app:fab_colorPressed="@color/add_item_pressed"
+				app:fab_colorRipple="@color/add_item_ripple" />
+
+	</FrameLayout>
+</LinearLayout>

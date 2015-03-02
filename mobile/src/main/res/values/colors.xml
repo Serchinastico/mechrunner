@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="add_item_normal">#FF3399</color>
+	<color name="add_item_pressed">#CC297A</color>
+	<color name="add_item_ripple">#AA297A</color>
+
+	<color name="accept_item_normal">#3399FF</color>
+	<color name="accept_item_pressed">#297ACC</color>
+	<color name="accept_item_ripple">#297AAA</color>
+</resources>

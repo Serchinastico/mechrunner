@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MechRunner</string>
+
+	<string name="action_settings">Settings</string>
+	<string name="schedule_name">Name</string>
+	<string name="schedule_repetitions">Repetitions</string>
+	<string name="step_duration">Duration in seconds</string>
+	<string name="title_activity_create_schedule">CreateScheduleActivity</string>
+	<string name="title_activity_create_step">CreateStepActivity</string>
+
+	<string name="edit_schedule_title">Edit schedule</string>
+	<string name="create_step_title">Create step</string>
+	<string name="error_invalid_duration">Invalid duration!</string>
+	<string name="rest_step_type">Rest</string>
+	<string name="exercise_step_type">Exercise</string>
+	<string name="title_activity_edit_schedule">EditScheduleActivity</string>
+
+	<string name="hello_world">Hello world!</string>
+</resources>
