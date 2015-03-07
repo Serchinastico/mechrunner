@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.etaoin.mechrunner" >
+    package="com.serchinastico.mechrunner" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/MechRunnerTheme" >
         <activity
-            android:name=".schedule.ui.activity.ScheduleListActivity"
+            android:name="com.serchinastico.mechrunner.schedule.ui.activity.ScheduleListActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,22 +17,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".schedule.ui.activity.CreateScheduleActivity"
+            android:name=".schedule.ui.activity.EditScheduleActivity"
             android:label="@string/title_activity_create_schedule" >
         </activity>
         <activity
-            android:name=".schedule.ui.activity.CreateStepActivity"
+            android:name="com.serchinastico.mechrunner.schedule.ui.activity.CreateStepActivity"
             android:label="@string/title_activity_create_step" >
         </activity>
 
         <service
-            android:name=".schedule.service.PlayerService"
+            android:name="com.serchinastico.mechrunner.schedule.service.PlayerService"
             android:enabled="true"
             android:exported="true" >
         </service>
 
         <activity
-            android:name=".schedule.ui.activity.EditScheduleActivity"
+            android:name=".schedule.ui.activity.EditScheduleDetailsActivity"
             android:label="@string/title_activity_edit_schedule" >
         </activity>
     </application>

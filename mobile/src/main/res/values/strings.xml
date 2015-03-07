@@ -10,6 +10,8 @@
 
 	<string name="edit_schedule_title">Edit schedule</string>
 	<string name="create_step_title">Create step</string>
+	<string name="error_invalid_schedule_name">Invalid name!</string>
+	<string name="error_invalid_repetitions">Invalid repetitions!</string>
 	<string name="error_invalid_duration">Invalid duration!</string>
 	<string name="rest_step_type">Rest</string>
 	<string name="exercise_step_type">Exercise</string>

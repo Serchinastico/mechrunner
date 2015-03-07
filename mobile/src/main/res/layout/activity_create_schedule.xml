@@ -28,7 +28,7 @@
 				android:id="@+id/add_step_button"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_gravity="bottom|center"
+				android:layout_gravity="bottom|right"
 				android:layout_margin="@dimen/add_schedule_step_button_margin"
 				android:src="@drawable/ic_add_white_24dp"
 				android:transitionName="fab"
